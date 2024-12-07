@@ -1,0 +1,91 @@
+<DOTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .HOME {
+      font-size: 20px;
+      margin: auto;
+      background: #dabcfc;
+      height: 50px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+    }
+    .index {
+      margin-left: 180px;
+      color: black;
+    }
+    .hi {
+      align-items: center;
+      background:#cda4fb;
+      height: 150px;
+      display: flex;
+      border-radius: 4px;
+      padding: 5px;
+    }
+    .input {
+      margin: 8px;
+      display:flex;
+      align-items: center;
+      margin-left: 75px;
+      width: 200px;
+    }
+    textarea  {
+      display: flex;
+      align-items: center;
+      margin-left: 75px;
+      height: 80px;
+    }
+    button {
+      margin: auto;
+      margin-left: 75px;
+      width: 192px;
+      height: 30px;
+      background: #c595fa;
+      border: 2px solid #c595fa;
+      border-radius: 2px;
+    }
+    #footer {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      background:  #dabcfc;
+      height: 40px;
+      padding: 5px;
+    }
+  .io { 
+    border-radius: 5px;
+    margin:5px;
+    width: 160px;
+    height: 160px;
+    margin-left: 85px;
+  }
+  </style>
+</head>
+<body>
+<div >
+  <p class="HOME">家 <a class="index"href="https://sunny-florentine-2b0eed.netlify.app/">关于我 </a></p>
+</div>
+ <p class="hi">你好呀 一 切都好，欢迎来到我的新频道 我来自印度但是 我喜欢了解其他人和国家☺️। 我15岁了，正在学习编码 ।我住在北方邦，你喜欢印度吗？🥰🙂
+   </p>
+   
+   <input  class="input" type="search" placeholder="输入您的姓名 ">
+   <input class="input" type="number" placeholder="输入你的年龄 ">
+    <textarea name="complainInfo" class="input" placeholder="关于你的 "></textarea>
+   
+   <button onclick="show()">提交 </button>
+   
+   
+   <img class="io" src="https://i.postimg.cc/TwHcQhk5/c65e3193181f8b7806741bdc90d2ac52.jpg"  alt="Icon">
+ 
+   <div id="footer">
+     <p>单击关于以获取有关我的信息💜</p>
+   </div>
+</body>
+</html>
